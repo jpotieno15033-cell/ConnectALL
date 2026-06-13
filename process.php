@@ -2,10 +2,10 @@
 session_start();
 header('Content-Type: application/json');
 
-$host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "cityfm_db";
+$host = "sql104.infinityfree.com";
+$db_user = "if0_42173580";
+$db_pass = "1hDb11Ft4S2S";
+$db_name = "if0_42173580_db_cityfm";
 
 $conn = new mysqli($host, $db_user, $db_pass, $db_name);
 
