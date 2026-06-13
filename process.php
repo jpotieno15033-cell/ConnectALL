@@ -5,10 +5,10 @@ header('Content-Type: application/json');
 error_reporting(0);
 
 // 🔴 CHANGE THESE TO YOUR INFINITYFREE DATABASE DETAILS
-$host = "sqlXXX.infinityfree.com";
-$db_user = "if0_xxxxxx";
-$db_pass = "your_password";
-$db_name = "if0_xxxxxx_cityfm_db";
+$host = "sql104.infinityfree.com";
+$db_user = "if0_42173580";
+$db_pass = "1hDb11Ft4S2S";
+$db_name = "if0_42173580_db_cityfm";
 
 // CONNECT DATABASE
 $conn = new mysqli($host, $db_user, $db_pass, $db_name);
